@@ -3,8 +3,6 @@ package ru.job4j.condition;
 import org.junit.Assert;
 import org.junit.Test;
 
-
-
 public class MaxTest {
 
     @Test
@@ -15,6 +13,7 @@ public class MaxTest {
         int expected = 2;
         Assert.assertEquals(result, expected);
     }
+
     @Test
     public void whenMax5To2Then5() {
         int left = 5;
@@ -23,6 +22,7 @@ public class MaxTest {
         int expected = 5;
         Assert.assertEquals(result, expected);
     }
+
     @Test
     public void whenMax2To2Then2() {
         int left = 2;

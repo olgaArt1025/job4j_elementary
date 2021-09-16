@@ -125,4 +125,5 @@ public class ChessBoardTest {
         int expected = 0;
         Assert.assertEquals(expected, result);
     }
+
 }

@@ -1,4 +1,4 @@
-package array;
+package ru.job4j.array;
 
 public class AlgoArray {
     public static void main(String[] args) {
@@ -17,4 +17,4 @@ public class AlgoArray {
             System.out.println(array[index]);
         }
     }
-    }
+}
